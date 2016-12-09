@@ -1,0 +1,79 @@
+::-moz-selection {
+    background: purple;
+    text-shadow: none;
+}
+
+::selection {
+    background: purple;
+    text-shadow: none;
+}
+
+html {
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    background: #d2b48c; /* old browsers */
+    background: -webkit-linear-gradient(70deg, #e5e8e9 50%, #e74c3c 50%);
+    background: linear-gradient(70deg, #e5e8e9 50%, #e74c3c 50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+}
+
+.logo {
+    z-index: 1;
+    width: 5em;
+    height: 3.5em;
+    overflow: hidden;
+    position:relative;
+    padding-top: 0.25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #282834;
+    font-size: 3rem;
+
+}
+
+.logo:after {
+    background-color: #f1c40f;
+    content: "";
+    height: 3.5em;
+    left: 46%;
+    position: absolute;
+    top: 0;
+    outline: 1px solid transparent;
+    transform: rotate(-20deg);
+    width: 0.2em;
+}
+
+.a, .g {
+    display: inline-block;
+    width: 55%;
+    min-height: 100%;
+    font-size: 3em;
+    line-height: 1em;
+    text-align: center;
+
+}
+
+.a {
+    font-weight: lighter;
+}
+
+.g {
+    font-weight: bold;
+
+}
+
+.dash {
+    font-weight: 100;
+    font-size: 8em;
+}
