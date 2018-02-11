@@ -16,9 +16,7 @@ html {
 }
 
 body {
-    background: #d2b48c; /* old browsers */
-    background: -webkit-linear-gradient(70deg, #e5e8e9 50%, #e74c3c 50%);
-    background: linear-gradient(70deg, #e5e8e9 50%, #e74c3c 50%);
+    background: #e74c3c; /* old browsers */    
     width: 100%;
     height: 100%;
     display: flex;
