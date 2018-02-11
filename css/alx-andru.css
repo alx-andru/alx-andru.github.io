@@ -29,7 +29,6 @@ body {
     z-index: 1;
     width: 5em;
     height: 3.5em;
-    overflow: hidden;
     position:relative;
     padding-top: 0.25em;
     display: flex;
